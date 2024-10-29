@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+    border: 1px solid whie;
+    box-shadow: 0px 4px 8px black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.photo-section {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.profile-pic {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.details-section {
+    flex: 3;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    overflow-y: auto; 
+}
+
+
+.box {
+    width: 100%;
+    padding: 15px; 
+    border-radius: 8px;
+    color: #fff;
+}
+
+.personal-details {
+    background-color: green; 
+}
+
+.marks-details {
+    background-color:blue; 
+}
+
+.education-details {
+    background-color: orange; 
+}
+
+.achievements-details {
+    background-color: purple; 
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* p {
+    margin-bottom: 5px; 
+    font-size: 16px;
+    color:white;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color:white;
+    color:grey;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: white;
+    color: grey;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
